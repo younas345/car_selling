@@ -20,7 +20,7 @@ const Login = () => {
                 }
             })
         } catch (error) {
-            message.error('Login failed. Please check your credentials.');
+            message.error('Login failed. Please check your credential.');
             console.error(error);
         } finally {
             setLoading(false);
